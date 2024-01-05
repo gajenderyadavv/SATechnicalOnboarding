@@ -45,12 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 <<<<<<< HEAD
-<<<<<<< HEAD
 const detailOrQuote ="Let's connect for discussions on technology, innovation, and professional growth. Let's 🌱🚀 #TechInnovation #DevSecOps #CloudArchitecture";
-=======
-const detailOrQuote =
-  "Let's connect for discussions on technology, innovation, and professional growth. ` Let's 🌱🚀 #TechInnovation #DevSecOps #CloudArchitecture";
->>>>>>> parent of f855dab (Changes)
 =======
 const detailOrQuote =
   "Let's connect for discussions on technology, innovation, and professional growth. ` Let's 🌱🚀 #TechInnovation #DevSecOps #CloudArchitecture";
