@@ -1,5 +1,5 @@
 /**
- * Portfolio componentT
+ * Portfolio component
  *
  * Highlights some of  your creations. These can be designs, websites,
  * open source contributions, articles you've written and more.
@@ -20,7 +20,6 @@ import React from "react";
  * freely use on your site.
  */
 import image from "../images/DevSecOps.jpg";
-import resume from "../Resume/Gajender-Yadav-Resume-Dec23.pdf";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -53,7 +52,7 @@ const projectList = [
      title: "Detailed Resume Here^",
      description:
        "",
-     url: resume,
+     url: "src/Resume/Gajender-Yadav-Resume-Dec23.pdf",
    },
 ];
 
