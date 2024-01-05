@@ -1,5 +1,5 @@
 /**
- * Portfolio component
+ * Portfolio componentT
  *
  * Highlights some of  your creations. These can be designs, websites,
  * open source contributions, articles you've written and more.
