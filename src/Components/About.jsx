@@ -44,12 +44,8 @@ const skillsList = [
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
-<<<<<<< HEAD
-const detailOrQuote ="Let's connect for discussions on technology, innovation, and professional growth. Let's 🌱🚀 #TechInnovation #DevSecOps #CloudArchitecture";
-=======
 const detailOrQuote =
   "Let's connect for discussions on technology, innovation, and professional growth. ` Let's 🌱🚀 #TechInnovation #DevSecOps #CloudArchitecture";
->>>>>>> parent of f855dab (Changes)
 
 const About = () => {
   return (
