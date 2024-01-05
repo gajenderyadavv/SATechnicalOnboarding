@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I' am a student pursuing a Bachelor's degree at the UIET, Kurukshetra University, with a focus on Electronics and Communication with a passion for innovation and technology with DevSecOps";
+  "Student pursuing  Bachelor's in Engg. &amp; Tech. in Electronics and Communications with a passion for innovation and technology with DevSecOps";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "Let's connect for discussions on technology, innovation, and professional growth. Let's 🌱🚀 #TechInnovation #DevSecOps #CloudArchitecture";
+  "Let's connect for discussions on technology, innovation, and professional growth. <br> Let's 🌱🚀 #TechInnovation #DevSecOps #CloudArchitecture";
 
 const About = () => {
   return (

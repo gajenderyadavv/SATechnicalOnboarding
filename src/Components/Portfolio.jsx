@@ -39,21 +39,21 @@ const projectList = [
   {
     title: "EV-RCS",
     description:
-      "Steering a project in EV sector which is towards LLP registration and seed funding with fostering an environment for collaborative growth with colleagues.",
+      "Steering a project in EV sector which is towards LLP registration and seed funding with fostering an environment for collaborative growth with colleagues. Leading pivotal Proof of Concept integrating IoT-based cloud solutions with a native mobile application ensuring my DevSecOps practices on top of it.",
     url: "https://www.evrcs.com",
   },
   {
     title: "This Site",
     description:
-      "Created from Microsoft's resume workshop and deployed to Azure Static web-app with CI/CD through GitHub. Includes my experience and abilities.",
+      "Created this from Microsoft's resume workshop and deployed to Azure Static web-app with CI/CD through GitHub. Includes my experience and abilities.",
     url: "https://red-field-00baf2300.4.azurestaticapps.net/#portfolio",
   },
-  // {
-  //   title: "GitHub Codespaces and github.dev",
-  //   description:
-  //     "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-  //   url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  // },
+   {
+     title: "Detailed Resume Here^",
+     description:
+       "",
+     url: "src/Resume/Gajender-Yadav-Resume-Dec23.pdf",
+   },
 ];
 
 const Portfolio = () => {
