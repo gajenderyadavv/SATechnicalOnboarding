@@ -20,6 +20,7 @@ import React from "react";
  * freely use on your site.
  */
 import image from "../images/DevSecOps.jpg";
+import resume from "../Resume/Gajender-Yadav-Resume-Dec23.pdf";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -52,7 +53,7 @@ const projectList = [
      title: "Detailed Resume Here^",
      description:
        "",
-     url: "src/Resume/Gajender-Yadav-Resume-Dec23.pdf",
+     url: resume,
    },
 ];
 

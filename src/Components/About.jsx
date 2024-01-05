@@ -44,8 +44,8 @@ const skillsList = [
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
-const detailOrQuote =
-  "Let's connect for discussions on technology, innovation, and professional growth. ` Let's 🌱🚀 #TechInnovation #DevSecOps #CloudArchitecture";
+const detailOrQuote =`Let's connect for discussions on technology, innovation, and professional growth. <br/>
+  Let's 🌱🚀 #TechInnovation #DevSecOps #CloudArchitecture`;
 
 const About = () => {
   return (
