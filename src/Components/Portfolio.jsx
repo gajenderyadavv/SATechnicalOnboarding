@@ -52,7 +52,7 @@ const projectList = [
      title: "Detailed Resume Here^",
      description:
        "",
-     url: "src/Resume/Gajender-Yadav-Resume-Dec23.pdf",
+     url: "/Resume/Gajender-Yadav-Resume-Dec23.pdf",
    },
 ];
 
