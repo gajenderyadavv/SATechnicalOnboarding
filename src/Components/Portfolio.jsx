@@ -9,7 +9,7 @@
  */
 
 import React from "react";
-
+import styles from "../styles/main.css";
 /**
  * Desk image
  *
@@ -58,17 +58,17 @@ const projectList = [
 
 const Portfolio = () => {
   return (
-    <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
+    <section className="portfolio__container" id="portfolio">
+      <h2>Portfolio</h2>
+      <div  className="portfolio__container_main">
+        
           <img
+            className="portfolio__container_image"
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
             alt={imageAltText}
           />
-        </div>
-        <div className="container">
+      
+        <div className="project__container">
           {projectList.map((project) => (
             <div className="box" key={project.title}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
