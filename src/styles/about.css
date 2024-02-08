@@ -1,0 +1,63 @@
+.padding {
+    padding: 20px;
+  }
+  
+  .background {
+    width: 100%; 
+    object-fit: cover; 
+    height: auto;
+  }
+  
+  .about-container {
+    background-color: white;
+    width: 100%;
+    /* padding: 4rem; */
+    /* margin: 3rem auto; */
+    /* text-align: center; */
+    box-sizing: border-box; 
+  }
+  
+  .large {
+    font-size: 1.25rem;
+  }
+  
+  .about-container hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .about-container ul {
+    text-align: left;
+    columns: 1; 
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    font-size: 1.25rem;
+    gap: 3rem;
+  }
+  
+  .about-container li {
+    margin-bottom: 1rem;
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .about-container {
+      width: 75%;
+    }
+  }
+  
+  /* Large devices (desktops, 1024px and up) */
+  @media (min-width: 1024px) {
+    .about-container {
+      width: 50%; 
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .about-container ul {
+      columns: 2; 
+      -webkit-columns: 2;
+      -moz-columns: 2;
+    }
+  }
+  

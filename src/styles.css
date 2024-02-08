@@ -3,6 +3,19 @@
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
+--root{
+  --primary: #4e567e;
+  --secondary: #f4f4f4;
+  --tertiary: #f4f4f4;
+  --quaternary: #f4f4f4;
+  --quinary: #f4f4f4;
+  --senary: #f4f4f4;
+  --septenary: #f4f4f4;
+  --octonary: #f4f4f4;
+  --nonary: #f4f4f4;
+  --denary: #f4f4f4;
+
+}
 
 html,
 body {
@@ -13,7 +26,7 @@ body {
   padding: 0;
   width: 100%;
 }
-
+/* 
 div#main {
   display: flex;
   flex-direction: column;
@@ -44,7 +57,7 @@ section img.background {
   width: 100vmax;
   z-index: -1;
 }
-
+*/
 h1 {
   font-family: "Cormorant Garamond", serif;
   font-size: 7rem;
@@ -102,6 +115,7 @@ a:hover {
   color: #4e567e;
 }
 
+/* 
 .container {
   display: grid;
   grid-gap: 20px;
@@ -117,7 +131,7 @@ a:hover {
   justify-content: flex-start;
   padding: 24px 16px;
   text-align: center;
-}
+}  */
 
 img.socialIcon {
   height: 30px;
