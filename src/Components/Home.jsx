@@ -1,27 +1,11 @@
-/**
- * Home component
- *
- * The section at the top of the page to display image of your
- * choice, name and title that describes your career focus.
- */
+// Home.js
 
 import React from "react";
 import arrowSvg from "../images/down-arrow.svg";
 import PropTypes from "prop-types";
-
-/**
- * Home background image
- *
- * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
- * represents what you see in that image.
- *
- *
- * Need an image? Check out https://unsplash.com to download a photo you
- * freely use on your site.
- */
+import developerImage from "../images/developer.jpg"; // Import the developer.jpg image
 import image from "../images/motion-background.jpg";
-import  '../styles/home.css'
+import '../styles/home.css';
 
 const imageAltText = "";
 
@@ -33,8 +17,11 @@ const Home = ({ name, title }) => {
       }
     }>
       <div className="home-main">
-        <h1>{name}</h1>
-        <h2>{title}</h2>
+        <img src={developerImage} alt="Developer" className="developer-image" />
+        <div className="content">
+          <h2>{name}</h2>
+          <h3>{title}</h3>
+        </div>
       </div>
       <div className="home-arrow">
         <img src={arrowSvg} alt="Scroll Down" />
@@ -42,6 +29,7 @@ const Home = ({ name, title }) => {
     </section>
   );
 };
+
 
 Home.defaultProps = {
   name: "",
