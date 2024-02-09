@@ -48,6 +48,12 @@ const projectList = [
       "Created this from Microsoft's resume workshop and deployed to Azure Static web-app with CI/CD through GitHub. Includes my experience and abilities.",
     url: "https://red-field-00baf2300.4.azurestaticapps.net/#portfolio",
   },
+  {
+    title: "Live Video-streamer",
+    description:
+      "Transmitting video from Camera and Encoderthrough RTMP, transcoding with FFmpeg, and securing with JavaScript-based authentication. Enhanced distribution via CloudFront and storing streams on S3 to delivers seamless, scalable live streaming to audiences worldwide.",
+    url: "https://github.com/gajenderyadavv/video-streamer.git",
+  },
    {
      title: "Detailed Resume Here^",
      description:
