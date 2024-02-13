@@ -49,9 +49,9 @@ const projectList = [
     url: "https://red-field-00baf2300.4.azurestaticapps.net/#portfolio",
   },
   {
-    title: "Live Video-streamer",
+    title: "Live Video Streaming Server",
     description:
-      "Transmitting video from Camera and Encoderthrough RTMP, transcoding with FFmpeg, and securing with JavaScript-based authentication. Enhanced distribution via CloudFront and storing streams on S3 to delivers seamless, scalable live streaming to audiences worldwide.",
+      "Transmitting video from Camera and Encoder through RTMP, transcoding with FFmpeg, and securing with JavaScript-based authentication. Enhanced distribution via CloudFront and storing streams on S3 to delivers seamless, scalable live streaming to audiences worldwide.",
     url: "https://github.com/gajenderyadavv/video-streamer.git",
   },
    {
