@@ -58,7 +58,7 @@ const projectList = [
      title: "Detailed Resume Here^",
      description:
        "",
-     url: "https://gajenderyadavv.blob.core.windows.net/portfolio/Gajender-Yadav-Resume-Dec23.pdf",
+     url: "https://gajenderyadavv.blob.core.windows.net/portfolio/Gajender-Yadav-Resume-Feb24.pdf",
    },
 ];
 
