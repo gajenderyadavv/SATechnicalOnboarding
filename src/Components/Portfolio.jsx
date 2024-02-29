@@ -46,10 +46,10 @@ const projectList = [
     title: "This Site",
     description:
       "Created this from Microsoft's workshop and deployed to Azure Static web-app with CI/CD through GitHub Actions. Includes my all portfolio, and skill abilities.",
-    url: "https://red-field-00baf2300.4.azurestaticapps.net/#portfolio",
+    url: "https://red-field-00baf2300.4.azurestaticapps.net/",
   },
   {
-    title: "Live Video Streaming Server",
+    title: "Live Video-Streaming Server",
     description:
       "Transmitting video from Camera and Encoder through RTMP, transcoding with FFmpeg, and securing with JavaScript-based authentication. Enhanced distribution via CloudFront and storing streams on S3 for seamless delivery of frames, scalable live streaming to audiences worldwide.",
     url: "https://github.com/gajenderyadavv/live-video-streaming-server.git",
