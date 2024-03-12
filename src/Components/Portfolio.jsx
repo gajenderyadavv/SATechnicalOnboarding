@@ -55,11 +55,16 @@ const projectList = [
     url: "https://github.com/gajenderyadavv/live-video-streaming-server.git",
   },
    {
-    
      title: "Detailed Resume Here^",
      description:
        "",
      url: "https://gajenderyadavv.blob.core.windows.net/portfolio/Gajender-Yadav-Resume-March24.pdf",
+     abc:[
+      {
+        url:"",
+        desc:""
+      }
+     ]
    },
 ];
 
@@ -81,6 +86,11 @@ const Portfolio = () => {
               <a href={project.url} target="_blank" rel="noopener noreferrer">
                 <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
               </a>
+              {project?.abc?.length>0&&<div style={{display:"flex",flexDirection:"column",gap:"20px 0px",marginTop:"20px"}}>
+                {project.abc.map(a=>{
+                  return <a href={a.url} style={{color:"rgb(78, 86, 126)"}}>{a.desc}</a>
+                })}
+                </div>}
               <p className="small">{project.description}</p>
             </div>
           ))}
