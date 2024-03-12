@@ -55,18 +55,11 @@ const projectList = [
     url: "https://github.com/gajenderyadavv/live-video-streaming-server.git",
   },
    {
-    title: "Resume Here^",
-     description:
-       "",
-     url: "https://gajenderyadavv.blob.core.windows.net/portfolio/Gajender-Yadav-Resume.pdf",
+    
      title: "Detailed Resume Here^",
      description:
        "",
      url: "https://gajenderyadavv.blob.core.windows.net/portfolio/Gajender-Yadav-Resume-March24.pdf",
-     title: "Electromnics Aligned Resume Here^",
-     description:
-       "",
-     url: "https://gajenderyadavv.blob.core.windows.net/portfolio/Gajender-Yadav-Resume-Electronics-Aligned.pdf",
    },
 ];
 
