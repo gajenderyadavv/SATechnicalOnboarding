@@ -54,18 +54,18 @@ const projectList = [
       "Transmitting video from Camera and Encoder through RTMP, transcoding with FFmpeg, and securing with JavaScript-based authentication. Enhanced distribution via CloudFront and storing streams on S3 for seamless delivery of frames, scalable live streaming to audiences worldwide.",
     url: "https://github.com/gajenderyadavv/live-video-streaming-server.git",
   },
-   {
-     title: "Detailed Resume Here^",
-     description:
-       "",
-     url: "https://gajenderyadavv.blob.core.windows.net/portfolio/Gajender-Yadav-Resume-March24.pdf",
-     abc:[
-      {
-        url:"",
-        desc:""
-      }
-     ]
-   },
+  //  {
+  //    title: "Detailed Resume Here^",
+  //    description:
+  //      "",
+  //    url: "https://gajenderyadavv.blob.core.windows.net/portfolio/Gajender-Yadav-Resume-March24.pdf",
+  //    abc:[
+  //     {
+  //       url:"",
+  //       desc:""
+  //     }
+  //    ]
+  //  },
 ];
 
 const Portfolio = () => {

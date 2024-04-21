@@ -7,24 +7,57 @@
   position: relative;
   padding: 2rem;
 }
+.linkedinLink{
+  background: #0077b5;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
 
+
+
+}
+.linkedinLink:hover{
+  background: #005f91;
+  color: white;
+}
 .min-height {
   min-height: 100vh;
 }
 .home-main {
+  width:700px;
   display: flex;
-  flex-direction: row-reverse; /* Reverse the order of items to place the image on the right */
-  align-items: flex-start; /* Align items to the top */
-  justify-content: flex-end; /* Justify content to the right */
-  height: 60vh;
+  margin-top:60px;
+  flex-direction: column; /* Reverse the order of items to place the image on the right */
+  align-items:center; /* Align items to the top */
+  justify-content: center; /* Justify content to the right */
+  /* height: 60vh; */
 }
-
+.person__{
+  display: flex;
+}
+.person__ .content{
+  width:50%;
+}
 .developer-image {
   max-width: 50%;
   max-height: 50%; /* Set the maximum width and height of the image */
   object-fit: cover; /* Maintain aspect ratio and cover the container */
   align-self: flex-start; /* Align the image to the top */
   border-radius: 20px; /* Add rounded corners to the image */
+}
+.home-main .about-container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+ background:none;
+ margin-bottom: 100px;
 }
 
 .content {
@@ -78,6 +111,11 @@
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+  .home-main{
+    width:100%;
+  
+  }
+
   .home-main h1 {
     font-size: 1.75rem; 
   }

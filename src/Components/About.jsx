@@ -30,14 +30,24 @@ const description =
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
-const skillsList = [
+export const skillsList = [
   "Cloud Architectures",
   "System Administration",
+  "Automation",
   "Containerisation",
   "Microservices",
-  "CI/CD",
-  "Problem Solving",
+  "Generative AI",
 ];
+
+// const skillsList2 = [
+//   "Cloud Architectures",
+//   "System Administration",
+//   "Automation",
+//   "Containerisation",
+//   "Microservices",
+//   "Generative AI",
+// ];
+
 
 /**
  * Use this to give more information about what you are passionate about,
@@ -55,11 +65,11 @@ const About = () => {
         <h2 style={{textAlign:'center'}}>About Myself</h2>
         <p className="large">{description}</p>
         <hr />
-        <ul>
-          {skillsList.map((skill) => (
+        {/* <ul>
+          {skillsList2.map((skill) => (
             <li key={skill}>{skill}</li>
           ))}
-        </ul>
+        </ul> */}
         <hr />
         <p className="large">{detailOrQuote}</p>
       </div>
