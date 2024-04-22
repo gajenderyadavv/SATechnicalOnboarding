@@ -37,15 +37,15 @@ const projectList = [
   //   url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
   // },
   {
-    title: "EV-RCS",
+    title: "EVRCS",
     description:
-      "Steering a project in EV sector which is towards LLP registration and seed funding with fostering an environment for collaborative growth with colleagues. Leading pivotal Proof of Concept integrating IoT-based cloud solutions with a native mobile application ensuring my DevSecOps practices on top of it.",
+      "Leveraged experience leading entrepreneurial efforts by steering a start-up project in EV sector which is towards LLP registration and seed funding. Concurrently, also navigating the inclusion into Kurukshetra University's Community Incubation Centre to foster growth. Also eading the development of a pivotal Proof of Concept by integrating IoT-based cloud solutions with a native mobile application.",
     url: "https://www.evrcs.com",
   },
   {
-    title: "This Site",
+    title: "Cloud/Home Lab",
     description:
-      "Created this from Microsoft's workshop and deployed to Azure Static web-app with CI/CD through GitHub Actions. Includes my all portfolio, and skill abilities.",
+      "Deployed various applications on both cloud and home lab environments, such as Kasm, Portainer, Ant-media server, Nginx (for reverse proxy) and MySQL for databases utilizing Docker and Kubernetes light version i.e K3s. Set up ESXi-Arm, DDNS-Cloudflare, NAS, and a custom DNS service on the home lab Raspberry Pi.",
     url: "https://red-field-00baf2300.4.azurestaticapps.net/",
   },
   {

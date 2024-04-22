@@ -114,7 +114,7 @@ const Footer = (props) => {
         )}
       </div>
       <p className="small" style={{ marginTop: 0, color: "white" }}>
-        Created by {name}
+        Developed and Deployed by {name}
       </p>
     </div>
   );
