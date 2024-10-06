@@ -39,7 +39,7 @@ const projectList = [
   {
     title: "EVRCS",
     description:
-      "Leveraged experience leading entrepreneurial efforts by steering a start-up project in EV sector which is towards LLP registration and seed funding.# Concurrently, also navigating the inclusion into Kurukshetra University's Community Incubation Centre to foster growth.# Also eading the development of a pivotal Proof of Concept by integrating IoT-based cloud solutions with a native mobile application.",
+      "Led a team of 4 in the development of a proof of concept, to create a cross-platform application using Native and Node technologies to ensure seamless integration with another Php backend.# Integrated an UHF-RFID & IoT-based cloud solution with Php backend for providing real-time charging data to users.# Implemented containerization to deploy both backend and application on ECS, ensuring scalability and reliability.# Also, Navigated for inclusion into UIET, KU’s Community Incubation Centre.#",
     url: "https://www.evrcs.com",
   },
   {
@@ -51,7 +51,7 @@ const projectList = [
   {
     title: "Live Video-Streaming Server",
     description:
-      "Transmitting video from Camera and Encoder through RTMP, transcoding with FFmpeg, and securing with JavaScript-based authentication.# Enhanced distribution via CloudFront and storing streams on S3 for seamless delivery of frames, scalable live streaming to audiences worldwide.#",
+      " Developed a system for live streaming using RaspberryPi’s Camera input & efficient Encoding of video frames in HLS.# Containerized the application for EC2 using Docker, including Nginx-RTMP-HTML for streaming management & Node container for the authentication purpose.# Established a RTMP endpoint within the Nginx-RTMP container, linking to an S3 bucket for efficient video file storage.# Utilized CloudFront as a CDN to ensure seamless distribution of transcoded HLS streams to end-users.#",
     url: "https://github.com/gajenderyadavv/live-video-streaming-server.git",
   },
   //  {
