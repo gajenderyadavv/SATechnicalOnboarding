@@ -64,7 +64,6 @@ const About = () => {
       <div className="about-container">
         <h2 style={{textAlign:'center'}}>About Myself</h2>
         <p className="large">{description}</p>
-        <hr />
         {/* <ul>
           {skillsList2.map((skill) => (
             <li key={skill}>{skill}</li>
