@@ -8,49 +8,6 @@
 1. [Deploy your site](#-deploy-your-web-application)
 
 
-
-## 🗃️ JavaScript Portfolio template
-
-This repo is a GitHub template to build a JavaScript personal portfolio frontend web application using the React framework. The goal is to give you a template that you can immediately utilize to create your own website through Codespaces.
-
-The repo contains the following:
-
-* `/.devcontainer`
-  - `.devcontainer/Dockerfile`: Configuration file used by Codespaces to determine operating system and other details.
-  - `.devcontainer/devcontainer.json`: Configuration file used by Codespaces to configure Visual Studio Code settings, such as the enabling of additional extensions.
-* `/src`: HTML, JS and CSS files used to build your portfolio site.
-* `.eslintrc`: Settings for [ESLint](https://eslint.org/)</a> that is included for code consistency and quality.
-* `.prettierrc`: Settings for [Prettier](https://prettier.io/) that is used to format code.
-* `package.json` and `package-lock.json`: Defines the project information for [Node.js](https://nodejs.org/)</a>, dependent packages and the versions needed of each.
-
-<br />
-
-
-### Create your portfolio
-
-1. Create a repository from this template. Use this [create repo link](https://github.com/microsoft/codespaces-project-template-js/generate). Select the repository owner, provide a name, a description if you'd like and if you'd like the new repository to be public or private.
-1. Before creating the Codespace, enable GitHub Copilot for your account. If it is not enabled, take a look at [Customize your portfolio site using Copilot](#-customize-your-site-in-3-steps).
-1. Navigate to the main page of the newly created repository.
-3. Under the repository name, use the Code drop-down menu, and in the Codespaces tab, select "Create codespace on main".
-
-    <img src="./__images__/createcodespace.png" alt="Create codespace" style="width:270px;"/>
-
-    
-4. Wait as GitHub initializes the Codespace.
-
-    <img src="https://user-images.githubusercontent.com/82035/194710065-92f8c325-6f57-4c77-88d7-da8db3c235e9.png" alt="Codespace initializing" style="width: 600px;"/>
-    
-5. When complete you will see your Codespace load with a terminal section at the bottom. Codespaces will install all the required extensions in your container, followed by executing `npm install`. Once the package installs are completed, Codesaces will execute `npm start` to start your web application running within your Codespace. 
-
-   When the web application has successfully started you will see a message in the terminal that the server is running on port 1234 within your Codespace:
-
-   <img src="https://user-images.githubusercontent.com/82035/220460347-605293ba-d3d1-483a-8157-71eaabb7ef52.png" alt="Web application started on port 1234" style="width: 300px;"/>
-   
-<br />
-
-
-<br/>
-
 ## 🏃 Deploy your web application
 
 Project includes the setup needed for you to deploy **FREE** to either [Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=academic-79839-sagibbon) _**or**_ [GitHub Pages](https://pages.github.com/)</a>. Instructions are included below for both:
